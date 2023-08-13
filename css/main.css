@@ -13,6 +13,12 @@ body.lock {
   overflow: hidden;
 }
 
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
 /* header */
 
 header {
@@ -34,12 +40,6 @@ header {
   .header-ellipse {
     display: none;
   }
-}
-
-.header__container {
-  max-width: 1440px;
-  padding: 0 20px;
-  margin: 0 auto;  
 }
 
 nav {
@@ -96,6 +96,7 @@ nav {
   }
   .nav__container.active {
     overflow: auto;    
+    padding: 20px 0 100px 0;
     left: 0;
   }
 }
@@ -108,7 +109,7 @@ nav {
     padding: 20px 0;
     width: 50%;
     text-align: center;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid var(--main-color);
   }
 }
 
@@ -122,6 +123,7 @@ nav {
 }
 @media (max-width: 768px) {
   .nav__container .log-in-button {
+    padding: 4px 40px;
     margin-top: 30px;
   }
 }
@@ -183,7 +185,6 @@ nav {
   max-width: 1220px;
   padding: 0 10px;
   margin: 64px auto 0 auto;
-  min-height: 423px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -193,9 +194,11 @@ nav {
   .header__container {
     display: flex;
     flex-direction: column;
-    margin: 24px auto 0 auto;
+    justify-content: end;
+    margin-top: 24px;
     gap: 30px;
     padding: 0 20px;
+    padding-bottom: 20px;
   }  
 }
 
@@ -299,4 +302,25 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.logo-wall {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+  pointer-events: none;
+  overflow: hidden;
+}
+@media (max-width: 768px)  {
+  .logo-wall {
+    display: none;
+  }
+}
+
+/* MAIN */
+
+.container-1 {
+
 }
