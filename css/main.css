@@ -81,7 +81,6 @@ nav {
 }
 @media (max-width: 768px) {
   .nav__container {
-    /* visibility: hidden; */
     position: absolute;
     top: 70px;
     left: -100%;
@@ -96,8 +95,7 @@ nav {
     transition: .2s;
   }
   .nav__container.active {
-    overflow: scroll;
-    /* visibility: visible; */
+    overflow: auto;    
     left: 0;
   }
 }
@@ -115,6 +113,7 @@ nav {
 }
 
 .nav__container .log-in-button {
+  cursor: pointer;
   padding: 8px 40px;
   border-radius: 24px;
   border: 2px solid #FFF;
