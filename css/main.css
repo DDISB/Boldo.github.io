@@ -692,21 +692,29 @@ line-height: 24px;
 .container-4__wrapper {
   margin-top: 72px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   width: 100%;
   max-width: 1100px;
   max-height: 400px;
+  overflow: hidden;
 }
 
-.container-4__wrapper ul {
+.container-4__wrapper__list {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  gap: 22px;
+  position: relative;
+  left: 0;
+  /* left: -350px; */
+  /* flex-wrap: wrap; */
+  offset-distance: 100px;
+  gap: 22px;
+  transition: .5s;
 }
 
-.container-4__wrapper ul li {
+.container-4__wrapper__list li {
   color: #000;
-  max-width: 350px;
+  width: 350px;
   height: max-content;
   padding: 40px;
   border-radius: 12px;
