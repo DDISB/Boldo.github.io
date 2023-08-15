@@ -656,3 +656,119 @@ line-height: 24px;
   content: url(../img/point\ 3.svg);
   margin-right: 8px;
 }
+
+/* contaier 4 */
+
+.container-4 {
+  margin-top: 120px;
+  min-height: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--secondary-сolor);
+  color: var(--main-color);
+}
+
+.container-4__title-wrapper {
+  max-width: 1100px;
+  width: 100%;
+}
+
+.container-4_title {
+  margin-top: 96px;
+  width: 100%;
+  max-width: 716px;
+  text-align: start;
+
+  font-family: 'Manrope';
+  font-size: 48px;
+  line-height: 72px;
+  font-weight: 400;
+}
+
+
+.container-4__wrapper {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1100px;
+  max-height: 400px;
+}
+
+.container-4__wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-4__wrapper ul li {
+  color: #000;
+  max-width: 350px;
+  height: max-content;
+  padding: 40px;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.12);
+}
+
+.container-4_text {
+  color: #000;
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.container-4__wrapper__autor-block {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+}
+
+.container-4__name-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: left;
+}
+
+.container-4_name {
+  color: var(--dark-blue, #0A2640);
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  
+}
+
+.container-4_contact {
+  color: var(--dark-blue, #0A2640);
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px; 
+}
+
+.container-4__arrow-wrapper {
+  position: absolute;
+  top: 180px;
+  right: 100px;
+  width: 100%;
+  max-width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-4_arrow {
+  /* pointer-events: none; */
+  cursor: pointer;
+  transition: .3s;
+}
+
+.container-4_arrow:hover {
+  opacity: 50%;
+}
