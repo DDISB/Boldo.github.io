@@ -9,6 +9,7 @@ document.querySelector('.menu-burger').addEventListener('click', function() {
 let offset = 0;
 const slider = document.querySelector('.container-4__wrapper__list');
 
+
 document.querySelector('.container-4_right-arrow').addEventListener('click', function() {
   offset += 372;
   if (window.screen.width > 1200) {
