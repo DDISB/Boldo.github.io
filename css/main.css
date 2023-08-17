@@ -1172,7 +1172,7 @@ footer {
     margin-top: 0;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 70px;
+    gap: 80px;
   }
 }
 @media (max-width: 576px) {
